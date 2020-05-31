@@ -58,16 +58,6 @@ img {
   height: auto;
 }
 
-/* .screen-shot {
-  background-color: honeydew;
-  width: 100%;
-  height: calc(260px * 0.5625);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-} */
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -122,12 +112,4 @@ footer {
     box-sizing: border-box;
     width: 50%;
   }
-
-  
-
-  /* .screen-shot {
-    width: 100%;
-    height: auto;
-    height: calc(731.5px * 0.5625);
-  } */
 }
