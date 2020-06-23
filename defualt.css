@@ -41,6 +41,13 @@ section {
   flex-direction: column;
 }
 
+.code-image {
+  align-self: center;
+  width: 175px;
+  height: auto;
+  display: none;
+}
+
 .bio {
   box-sizing: border-box;
   display: flex;
@@ -48,8 +55,12 @@ section {
   justify-content: center;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 100vh;
-  padding: 10%;
+  min-height: 100vh;
+  padding: 15%;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .project {
@@ -164,7 +175,7 @@ button:hover {
 
   header {
     flex-direction: row;
-    height: 60vh;
+    height: 550px;
     justify-content: space-evenly;
   }
 
@@ -178,14 +189,24 @@ button:hover {
     align-self: center;
   }
 
+  .code-image {
+    display: unset;
+  }
+
   .bio {
-    padding: 7%;
+    min-height: unset;
+    height: 700px;
+    padding: unset;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: unset;
   }
 
   .project {
     box-sizing: border-box;
     flex-direction: row;
     justify-content: space-around;
+    height: 550px;;
     padding: 7%;
   }
 
