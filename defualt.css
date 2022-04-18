@@ -69,10 +69,8 @@ section {
   background-color: #34558b;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
   color: #E6EAEF;
-  height: 100vh;
   padding: 10%;
 }
 
