@@ -7,7 +7,7 @@ function handleLiveLinkClicked() {
 }
 
 function handleRepoLinkClicked() {
-  $('.js-repo-link-button').click(function() {
+  $('.js-repo-link-button').click(function () {
     window.open('https://github.com/tcatt71/quiz-app-final', '_blank');
   });
 }
