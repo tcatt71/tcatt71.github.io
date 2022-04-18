@@ -1,4 +1,3 @@
-'use strict';
 
 function handleLiveLinkClicked() {
   $('.js-live-link-button').click(function () {
