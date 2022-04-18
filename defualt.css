@@ -12,8 +12,8 @@ body {
 }
 
 p {
-  line-height: 26px;
   font-size: 19px;
+  line-height: 1.368;
 }
 
 nav {
@@ -165,8 +165,8 @@ button:hover {
   }
 
   p {
-    line-height: 28px;
     font-size: 20px;
+    line-height: 1.4;
   }
 
   nav ul {
