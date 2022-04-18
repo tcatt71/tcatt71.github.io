@@ -164,15 +164,6 @@ button:hover {
     flex-direction: row;
   }
 
-  p {
-    line-height: 1.4;
-    font-size: 2rem;
-  }
-
-  .bio-details p:last-child {
-    text-align: center;
-  }
-
   nav ul {
     margin-left: 35%;
     margin-right: 35%;
@@ -192,6 +183,15 @@ button:hover {
   .headline {
     max-width: 40%;
     align-self: center;
+  }
+
+  p {
+    line-height: 1.4;
+    font-size: 2rem;
+  }
+
+  .bio-details p:last-child {
+    text-align: center;
   }
 
   .code-image {
