@@ -17,8 +17,9 @@ body {
 }
 
 p {
-  /* line-height: 1.368; */
-  /* font-size: 1.9rem; */
+  line-height: 1.368;
+  font-size: 1.9rem;
+  margin: 1.6rem 0;
 }
 
 nav {
@@ -62,13 +63,19 @@ section {
 }
 
 .bio {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
   /* text-align: center; */
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
   /* min-height: 100vh; */
+  /* height: 100vh; */
   /* padding: 15%; */
+  padding: 0 1rem;
+}
+
+em {
+  font-style: italic;
 }
 
 .project {
