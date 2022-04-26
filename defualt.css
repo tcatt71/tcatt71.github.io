@@ -30,14 +30,18 @@ nav {
 }
 
 header {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* text-align: center; */
-  /* color: #E6EAEF; */
-  /* height: calc(100vh - 5rem); */
-  /* background-color: #34558b; */
-  /* padding: 2.8rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  color: #E6EAEF;
+  background-color: #34558b;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.368;
 }
 
 main {
