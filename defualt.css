@@ -106,6 +106,22 @@ a:hover {
   gap: 1rem;
 }
 
+button {
+  background-color: #E6EAEF;
+  color: #414449;
+  border: none;
+  height: 3rem;
+  width: 10rem;
+  cursor: pointer;
+  border-radius: 0.7rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #1f4177;
+  color: #E6EAEF;
+}
+
 footer {
   height: 5rem;
   display: flex;
@@ -121,22 +137,6 @@ footer p {
 
 footer ul {
   width: 8rem;
-}
-
-button {
-  background-color: #E6EAEF;
-  color: #414449;
-  border: none;
-  height: 3rem;
-  width: 10rem;
-  cursor: pointer;
-  border-radius: 0.7rem;
-  font-weight: bold;
-}
-
-button:hover {
-  background-color: #1f4177;
-  color: #E6EAEF;
 }
 
 .contact-icon {
