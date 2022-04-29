@@ -151,19 +151,18 @@ footer ul {
   }
 
   header {
-    /* flex-direction: row; */
-    /* height: 55rem; */
-    /* justify-content: space-evenly; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
-  .hero-picture-container {
-    /* align-self: center; */
-    /* max-width: 40%; */
+  header img {
+    max-width: 40%;
+    margin: 5% 0;
   }
 
-  .headline {
-    /* max-width: 40%; */
-    /* align-self: center; */
+  h1 {
+    max-width: 40%;
   }
 
   p {
