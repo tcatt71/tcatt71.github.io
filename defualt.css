@@ -166,12 +166,12 @@ footer ul {
   }
 
   p {
-    /* line-height: 1.4; */
-    /* font-size: 2rem; */
+    line-height: 1.4;
+    font-size: 2rem;
   }
 
   .bio-details p:last-child {
-    /* text-align: center; */
+    text-align: center;
   }
 
   .code-image {
@@ -179,12 +179,10 @@ footer ul {
   }
 
   .bio {
-    /* min-height: unset; */
-    /* height: 70rem; */
-    /* padding: unset; */
-    /* padding-left: 20%; */
-    /* padding-right: 20%; */
-    /* text-align: unset; */
+    min-height: unset;
+    height: 60rem;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   .bio-details {
