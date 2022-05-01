@@ -179,6 +179,7 @@ footer ul {
   }
 
   .bio {
+    justify-content: center;
     min-height: unset;
     height: 60rem;
     padding-left: 20%;
