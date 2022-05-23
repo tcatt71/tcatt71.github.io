@@ -55,6 +55,10 @@ h1 {
   display: none;
 }
 
+.bio-details {
+  max-width: 71.5rem;
+}
+
 em {
   font-style: italic;
 }
