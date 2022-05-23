@@ -169,10 +169,6 @@ footer ul {
     font-size: 2rem;
   }
 
-  .bio-details p:last-child {
-    text-align: center;
-  }
-
   .code-image {
     display: unset;
   }
@@ -181,12 +177,15 @@ footer ul {
     justify-content: center;
     min-height: unset;
     height: 60rem;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin: 0 7%;
   }
 
   .bio-details {
     margin-top: -1.6rem;
+  }
+
+  .bio-details p:last-child {
+    text-align: center;
   }
 
   .project {
