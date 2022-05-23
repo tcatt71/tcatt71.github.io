@@ -116,14 +116,14 @@ a:hover {
 }
 
 button {
+  width: 10rem;
+  height: 3rem;
   background-color: #E6EAEF;
   color: #414449;
-  border: none;
-  height: 3rem;
-  width: 10rem;
-  cursor: pointer;
-  border-radius: 0.7rem;
   font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.7rem;
 }
 
 button:hover {
