@@ -170,7 +170,7 @@ footer ul {
   }
 
   .code-image {
-    display: unset;
+    display: inline;
   }
 
   .bio {
