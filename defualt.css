@@ -189,25 +189,37 @@ footer ul {
   }
 
   .project {
-    /* flex-direction: row; */
-    /* justify-content: space-around; */
-    /* height: 55rem; */
-    /* padding: 7%; */
+    padding: 1rem 0;
+  }
+
+  .project-container {
+    margin: 0 7%;
+  }
+}
+
+@media screen and (min-width: 875px) {
+  .project-container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: none;
+    padding: 7% 0;
+    margin: 0;
   }
 
   .project-screenshot {
-    /* max-width: 50%; */
-    /* height: unset; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
+    width: 40%;
+    flex-direction: column;
+    margin: 0;
   }
 
   .project-details {
-    /* height: unset; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* padding-left: 7%; */
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin-top: 0;
   }
 }
