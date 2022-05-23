@@ -175,7 +175,6 @@ footer ul {
 
   .bio {
     justify-content: center;
-    min-height: unset;
     height: 60rem;
     margin: 0 7%;
   }
