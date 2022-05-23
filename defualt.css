@@ -42,17 +42,17 @@ h1 {
   line-height: 1.368;
 }
 
-.code-image {
-  width: 17.5rem;
-  display: none;
-}
-
 .bio {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0 1rem;
+}
+
+.code-image {
+  width: 17.5rem;
+  display: none;
 }
 
 em {
