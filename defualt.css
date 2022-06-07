@@ -37,6 +37,10 @@ header {
   padding: 1rem;
 }
 
+header img {
+  border-radius: 0.5rem;
+}
+
 h1 {
   font-size: 2rem;
   line-height: 1.368;
