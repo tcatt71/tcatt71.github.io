@@ -220,6 +220,12 @@ footer ul {
   }
 }
 
+@media screen and (min-width: 807px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
 @media screen and (min-width: 875px) {
   .project-container {
     display: flex;
@@ -244,5 +250,11 @@ footer ul {
 
   h2 {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  h1 {
+    font-size: 3rem;
   }
 }
