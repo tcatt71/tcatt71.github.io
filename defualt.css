@@ -68,7 +68,7 @@ em {
   flex-direction: column;
   align-items: center;
   color: #E6EAEF;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 .project:nth-child(odd) {
