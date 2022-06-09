@@ -222,6 +222,10 @@ footer ul {
   .project-container {
     margin: 0 7%;
   }
+
+  h2 {
+    font-weight: bold;
+  }
 }
 
 @media screen and (min-width: 807px) {
