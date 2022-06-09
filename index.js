@@ -6,4 +6,4 @@ const employeeDirectoryRepoLinkBtn = document.querySelector('.js-employee-direct
 quizAppLiveLinkBtn.addEventListener('click', () => window.open('https://tcatt71.github.io/quiz-app-final/', '_blank'));
 quizAppRepoLinkBtn.addEventListener('click', () => window.open('https://github.com/tcatt71/quiz-app-final', '_blank'));
 employeeDirectoryLiveLinkBtn.addEventListener('click', () => window.open('https://tcatt71.github.io/empoyee-directory/', '_blank'));
-employeeDirectoryRepoLinkBtn.addEventListener('click', () => window.open('https://github.com/tcatt71/empoyee-directory', '_blank'));
+webAppDashboardLiveLinkBtn.addEventListener('click', () => window.open('https://tcatt71.github.io/webapp-dashboard/', '_blank'));
