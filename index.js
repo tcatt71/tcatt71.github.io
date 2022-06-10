@@ -6,6 +6,8 @@ const webAppDashboardLiveLinkBtn = document.querySelector('.js-web-app-live-link
 const webAppDashboardRepoLinkBtn = document.querySelector('.js-web-app-repo-link-btn');
 const gameShowAppLiveLinkBtn = document.querySelector('.js-game-show-live-link-btn');
 const gameShowAppRepoLinkBtn = document.querySelector('.js-game-show-repo-link-btn');
+const photoGalleryLiveLinkBtn = document.querySelector('.js-photo-gallery-live-link-btn');
+const photoGalleryRepoLinkBtn = document.querySelector('.js-photo-gallery-repo-link-btn');
 
 quizAppLiveLinkBtn.addEventListener('click', () => window.open('https://tcatt71.github.io/quiz-app-final/', '_blank'));
 quizAppRepoLinkBtn.addEventListener('click', () => window.open('https://github.com/tcatt71/quiz-app-final', '_blank'));
@@ -15,3 +17,5 @@ webAppDashboardLiveLinkBtn.addEventListener('click', () => window.open('https://
 webAppDashboardRepoLinkBtn.addEventListener('click', () => window.open('https://github.com/tcatt71/webapp-dashboard', '_blank'));
 gameShowAppLiveLinkBtn.addEventListener('click', () => window.open('https://tcatt71.github.io/game-show-app/', '_blank'));
 gameShowAppRepoLinkBtn.addEventListener('click', () => window.open('https://github.com/tcatt71/game-show-app', '_blank'));
+photoGalleryLiveLinkBtn.addEventListener('click', () => window.open('https://tcatt71.github.io/photo-gallery/', '_blank'));
+photoGalleryRepoLinkBtn.addEventListener('click', () => window.open('https://github.com/tcatt71/photo-gallery', '_blank'));
