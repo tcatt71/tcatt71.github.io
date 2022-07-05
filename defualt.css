@@ -138,18 +138,6 @@ nav a:hover {
   gap: 1rem;
 }
 
-button {
-  width: 10rem;
-  height: 3rem;
-  background-color: #E6EAEF;
-  color: #414449;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
-  border-radius: 0.7rem;
-  transition-duration: .25s;
-}
-
 .button {
   width: 10rem;
   height: 3rem;
@@ -163,11 +151,6 @@ button {
   border: none;
   border-radius: 0.7rem;
   transition-duration: .25s;
-}
-
-button:hover {
-  background-color: #1f4177;
-  color: #E6EAEF;
 }
 
 .button:hover {
