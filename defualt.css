@@ -177,6 +177,7 @@ footer ul {
 
 .contact-icon {
   width: 1.7rem;
+  fill: #e6eaef;
 }
 
 @media screen and (min-width: 640px) {
