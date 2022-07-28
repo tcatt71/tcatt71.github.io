@@ -13,6 +13,11 @@ body {
   background-color: #e6eaef;
 }
 
+.body-dark-theme {
+  color: hsl(0, 0%, 100%, .87);
+  background-color: #121212;
+}
+
 p {
   line-height: 1.368;
   font-size: 1.9rem;
@@ -36,9 +41,21 @@ nav .button {
   border: solid 0.1rem #34558b;
 }
 
+nav .button-dark-theme {
+  color: #000;
+  background-color: #8ed2f5;
+  border: none;
+}
+
 nav .button:hover {
   color: #414449;
   background-color: #e6eaef;
+}
+
+nav .button-dark-theme:hover {
+  color: #000;
+  background-color: #a6a8d7;
+  border: none;
 }
 
 header {
@@ -138,13 +155,21 @@ ul {
   width: 28rem;
 }
 
-a {
+nav a {
   color: #34558b;
   text-decoration: none;
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.nav-link-dark-theme {
+  color: #8ed2f5;
+}
+
+.nav-link-dark-theme:hover {
+  color: #a6a8d7;
 }
 
 .view-buttons {
