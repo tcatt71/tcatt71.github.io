@@ -95,6 +95,10 @@ h1 {
   display: none;
 }
 
+.code-image-dark-theme {
+  content: url('images/code-xxl.png');
+}
+
 .bio-details {
   max-width: 71.5rem;
 }

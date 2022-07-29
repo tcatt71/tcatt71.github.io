@@ -3,6 +3,7 @@ const body = document.querySelector('body');
 const themeButton = document.querySelector('nav .button');
 const navLinks = document.querySelectorAll('a');
 const header = document.querySelector('header');
+const codeImage = document.querySelector('.code-image');
 
 document.querySelector('button').addEventListener('click', () => {
   if (theme === 'light') {
@@ -13,6 +14,7 @@ document.querySelector('button').addEventListener('click', () => {
       link.classList.add('nav-link-dark-theme');
     });
     header.classList.add('header-dark-theme');
+    codeImage.classList.add('code-image-dark-theme');
 
     theme = 'dark';
   } else {
@@ -23,6 +25,7 @@ document.querySelector('button').addEventListener('click', () => {
       link.classList.remove('nav-link-dark-theme');
     });
     header.classList.remove('header-dark-theme');
+    codeImage.classList.remove('code-image-dark-theme');
 
     theme = 'light';
   }
