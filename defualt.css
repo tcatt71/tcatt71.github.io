@@ -134,6 +134,7 @@ em {
 
 .project:nth-child(even) {
   color: #414449;
+  background-color: unset;
 }
 
 .project:nth-child(even) .button {
