@@ -46,6 +46,23 @@ nav {
   transition-duration: .25s;
 }
 
+.button:hover {
+  background-color: #1f4177;
+  color: #E6EAEF;
+}
+
+.button-dark-theme {
+  color: #000;
+  background-color: #8ed2f5;
+  border: none;
+}
+
+.button-dark-theme:hover {
+  color: #000;
+  background-color: #a6a8d7;
+  border: none;
+}
+
 nav .button {
   position: absolute;
   right: 1.6rem;
@@ -130,6 +147,13 @@ em {
   padding: 2rem 1rem;
 }
 
+.project-dark-theme {
+  color: unset;
+  background-color: hsla(217, 46%, 37%, 0.08);
+}
+
+.project-description-dark-theme {
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .project:nth-child(even) {
@@ -206,10 +230,6 @@ nav a:hover {
 
 }
 
-.button:hover {
-  background-color: #1f4177;
-  color: #E6EAEF;
-}
 
 footer {
   height: 5rem;
