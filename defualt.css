@@ -68,6 +68,11 @@ header {
   padding: 1rem;
 }
 
+.header-dark-theme {
+  color: hsl(0, 0%, 100%, .87);
+  background-color: hsla(217, 46%, 37%, 0.08);
+}
+
 header img {
   border-radius: 0.5rem;
 }
