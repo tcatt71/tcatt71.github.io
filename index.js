@@ -7,6 +7,8 @@ const header = document.querySelector('header');
 const codeImage = document.querySelector('.code-image');
 const projects = document.querySelectorAll('.project');
 const projectDescriptions = document.querySelectorAll('.project p');
+const footer = document.querySelector('footer');
+const contactIcons = document.querySelectorAll('.contact-icon');
 
 document.querySelector('button').addEventListener('click', () => {
   if (theme === 'light') {
@@ -21,6 +23,8 @@ document.querySelector('button').addEventListener('click', () => {
     codeImage.classList.add('code-image-dark-theme');
     projects.forEach(project => project.classList.add('project-dark-theme'));
     projectDescriptions.forEach(projectDescription => projectDescription.classList.add('project-description-dark-theme'));
+    footer.classList.add('footer-dark-theme');
+    contactIcons.forEach(icon => icon.classList.add('contact-icon-dark-theme'));
 
     theme = 'dark';
   } else {
@@ -35,6 +39,8 @@ document.querySelector('button').addEventListener('click', () => {
     codeImage.classList.remove('code-image-dark-theme');
     projects.forEach(project => project.classList.remove('project-dark-theme'));
     projectDescriptions.forEach(projectDescription => projectDescription.classList.remove('project-description-dark-theme'));
+    footer.classList.remove('footer-dark-theme');
+    contactIcons.forEach(icon => icon.classList.remove('contact-icon-dark-theme'));
 
     theme = 'light';
   }

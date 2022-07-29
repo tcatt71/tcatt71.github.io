@@ -253,6 +253,10 @@ footer {
   background-color: #414449;
 }
 
+.footer-dark-theme {
+  background-color: #121212;
+}
+
 footer p {
   margin: 0;
 }
@@ -265,7 +269,14 @@ footer ul {
   width: 1.7rem;
   height: 1.7rem;
   fill: #e6eaef;
-  /* fill: hsla(0, 0%, 100%, 0.87); */
+}
+
+.contact-icon-dark-theme {
+  fill: hsl(0, 0%, 100%, .87);
+}
+
+.contact-icon-dark-theme:hover {
+  fill: #a6a8d7;
 }
 
 @media screen and (min-width: 640px) {
