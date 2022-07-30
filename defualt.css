@@ -64,6 +64,7 @@ nav {
 }
 
 nav .button {
+  display: none;
   position: absolute;
   right: 1.6rem;
   background-color: #34558b;
@@ -277,6 +278,12 @@ footer ul {
 
 .contact-icon-dark-theme:hover {
   fill: #a6a8d7;
+}
+
+@media screen and (min-width: 540px) {
+  nav .button {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 640px) {
