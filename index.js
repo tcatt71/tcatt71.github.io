@@ -16,9 +16,7 @@ document.querySelector('button').addEventListener('click', () => {
     themeButton.textContent = 'Light Theme';
     themeButton.classList.add('button-dark-theme');
     buttons.forEach(button => button.classList.add('button-dark-theme'));
-    navLinks.forEach(link => {
-      link.classList.add('nav-link-dark-theme');
-    });
+    navLinks.forEach(link => link.classList.add('nav-link-dark-theme'));
     header.classList.add('header-dark-theme');
     codeImage.classList.add('code-image-dark-theme');
     projects.forEach(project => project.classList.add('project-dark-theme'));
@@ -32,9 +30,7 @@ document.querySelector('button').addEventListener('click', () => {
     themeButton.textContent = 'Dark Theme';
     themeButton.classList.remove('button-dark-theme');
     buttons.forEach(button => button.classList.remove('button-dark-theme'));
-    navLinks.forEach(link => {
-      link.classList.remove('nav-link-dark-theme');
-    });
+    navLinks.forEach(link => link.classList.remove('nav-link-dark-theme'));
     header.classList.remove('header-dark-theme');
     codeImage.classList.remove('code-image-dark-theme');
     projects.forEach(project => project.classList.remove('project-dark-theme'));
